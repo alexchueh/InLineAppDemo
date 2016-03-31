@@ -10,4 +10,6 @@
 
 @interface MainViewController : BaseViewController
 
+@property (weak, nonatomic) IBOutlet UIView *detailView;
+
 @end

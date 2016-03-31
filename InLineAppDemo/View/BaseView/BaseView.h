@@ -10,4 +10,12 @@
 
 @interface BaseView : UIView
 
+/**
+ *  設定Constraint使之根據Autolayout去做調整
+ *
+ *  @param customView 客制的Xib View
+ */
+- (void)setConstraint:(UIView *)customView;
+
+
 @end

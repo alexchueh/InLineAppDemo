@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F30198CB43813DAE8A3F0EB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B4D06B6218DE3FADFDB195 /* libPods.a */; };
+		BF3135CE1CAD20F800D7E366 /* DetailTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3135CD1CAD20F800D7E366 /* DetailTableView.m */; };
+		BF3135D21CAD215300D7E366 /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3135D01CAD215300D7E366 /* DetailTableViewCell.m */; };
+		BF3135D31CAD215300D7E366 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3135D11CAD215300D7E366 /* DetailTableViewCell.xib */; };
+		BF3135D51CAD248300D7E366 /* DetailTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3135D41CAD248300D7E366 /* DetailTableView.xib */; };
 		BF93DD2D1CAB9F2A005456DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93DD2C1CAB9F2A005456DF /* main.m */; };
 		BF93DD301CAB9F2A005456DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93DD2F1CAB9F2A005456DF /* AppDelegate.m */; };
 		BF93DD361CAB9F2A005456DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF93DD341CAB9F2A005456DF /* Main.storyboard */; };
@@ -19,6 +24,7 @@
 		BF93DD6F1CABA3A9005456DF /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93DD6E1CABA3A9005456DF /* BaseView.m */; };
 		BF93DD721CABA3B9005456DF /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93DD711CABA3B9005456DF /* BaseModel.m */; };
 		BF93DD771CABA72E005456DF /* ReserveView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93DD761CABA72E005456DF /* ReserveView.m */; };
+		BF93DD7B1CABB523005456DF /* ReserveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF93DD7A1CABB523005456DF /* ReserveView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		953240427940967F03E11CB3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BF3135CC1CAD20F800D7E366 /* DetailTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableView.h; sourceTree = "<group>"; };
+		BF3135CD1CAD20F800D7E366 /* DetailTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableView.m; sourceTree = "<group>"; };
+		BF3135CF1CAD215300D7E366 /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
+		BF3135D01CAD215300D7E366 /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
+		BF3135D11CAD215300D7E366 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		BF3135D41CAD248300D7E366 /* DetailTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableView.xib; sourceTree = "<group>"; };
 		BF93DD281CAB9F2A005456DF /* InLineAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InLineAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF93DD2C1CAB9F2A005456DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF93DD2E1CAB9F2A005456DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +76,9 @@
 		BF93DD711CABA3B9005456DF /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		BF93DD751CABA72E005456DF /* ReserveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReserveView.h; sourceTree = "<group>"; };
 		BF93DD761CABA72E005456DF /* ReserveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReserveView.m; sourceTree = "<group>"; };
+		BF93DD7A1CABB523005456DF /* ReserveView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReserveView.xib; sourceTree = "<group>"; };
+		C1B4D06B6218DE3FADFDB195 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6009A4CC7E893EEA1858859 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F30198CB43813DAE8A3F0EB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +116,8 @@
 				BF93DD441CAB9F2A005456DF /* InLineAppDemoTests */,
 				BF93DD4F1CAB9F2A005456DF /* InLineAppDemoUITests */,
 				BF93DD291CAB9F2A005456DF /* Products */,
+				D3CE4FA73A65911A99824F6E /* Pods */,
+				F7E6CFB5DBE71FE809D15C2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,7 +196,7 @@
 			children = (
 				BF93DD631CABA219005456DF /* BaseView */,
 				BF93DD741CABA6FD005456DF /* ReserveView */,
-				BF93DD731CABA6FD005456DF /* DeatilView */,
+				BF93DD7C1CACC5B7005456DF /* DetailView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -232,20 +251,44 @@
 			path = MainViewController;
 			sourceTree = "<group>";
 		};
-		BF93DD731CABA6FD005456DF /* DeatilView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DeatilView;
-			sourceTree = "<group>";
-		};
 		BF93DD741CABA6FD005456DF /* ReserveView */ = {
 			isa = PBXGroup;
 			children = (
 				BF93DD751CABA72E005456DF /* ReserveView.h */,
 				BF93DD761CABA72E005456DF /* ReserveView.m */,
+				BF93DD7A1CABB523005456DF /* ReserveView.xib */,
 			);
 			path = ReserveView;
+			sourceTree = "<group>";
+		};
+		BF93DD7C1CACC5B7005456DF /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				BF3135CC1CAD20F800D7E366 /* DetailTableView.h */,
+				BF3135CD1CAD20F800D7E366 /* DetailTableView.m */,
+				BF3135D41CAD248300D7E366 /* DetailTableView.xib */,
+				BF3135CF1CAD215300D7E366 /* DetailTableViewCell.h */,
+				BF3135D01CAD215300D7E366 /* DetailTableViewCell.m */,
+				BF3135D11CAD215300D7E366 /* DetailTableViewCell.xib */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		D3CE4FA73A65911A99824F6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				953240427940967F03E11CB3 /* Pods.debug.xcconfig */,
+				E6009A4CC7E893EEA1858859 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7E6CFB5DBE71FE809D15C2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1B4D06B6218DE3FADFDB195 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF93DD551CAB9F2A005456DF /* Build configuration list for PBXNativeTarget "InLineAppDemo" */;
 			buildPhases = (
+				41BA949AE6E61EAF86B6E7FD /* Check Pods Manifest.lock */,
 				BF93DD241CAB9F2A005456DF /* Sources */,
 				BF93DD251CAB9F2A005456DF /* Frameworks */,
 				BF93DD261CAB9F2A005456DF /* Resources */,
+				481CE7D072995ED8184977DE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -352,8 +397,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF93DD3B1CAB9F2A005456DF /* LaunchScreen.storyboard in Resources */,
+				BF3135D31CAD215300D7E366 /* DetailTableViewCell.xib in Resources */,
 				BF93DD381CAB9F2A005456DF /* Assets.xcassets in Resources */,
 				BF93DD361CAB9F2A005456DF /* Main.storyboard in Resources */,
+				BF3135D51CAD248300D7E366 /* DetailTableView.xib in Resources */,
+				BF93DD7B1CABB523005456DF /* ReserveView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +421,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41BA949AE6E61EAF86B6E7FD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		481CE7D072995ED8184977DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF93DD241CAB9F2A005456DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -380,6 +461,8 @@
 			files = (
 				BF93DD721CABA3B9005456DF /* BaseModel.m in Sources */,
 				BF93DD691CABA2E2005456DF /* BaseViewController.m in Sources */,
+				BF3135CE1CAD20F800D7E366 /* DetailTableView.m in Sources */,
+				BF3135D21CAD215300D7E366 /* DetailTableViewCell.m in Sources */,
 				BF93DD301CAB9F2A005456DF /* AppDelegate.m in Sources */,
 				BF93DD6F1CABA3A9005456DF /* BaseView.m in Sources */,
 				BF93DD771CABA72E005456DF /* ReserveView.m in Sources */,
@@ -523,9 +606,11 @@
 		};
 		BF93DD561CAB9F2A005456DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953240427940967F03E11CB3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InLineAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PIXNET.com.InLineAppDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,9 +619,11 @@
 		};
 		BF93DD571CAB9F2A005456DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6009A4CC7E893EEA1858859 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InLineAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PIXNET.com.InLineAppDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
