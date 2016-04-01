@@ -8,9 +8,12 @@
 
 #import "DetailTableView.h"
 #import "DetailTableViewCell.h"
+#import "DetailModel.h"
 
 @interface DetailTableView ()
 @property (strong, nonatomic) IBOutlet UITableView *detailTableView;
+@property (nonatomic, strong) DetailModel *detailModel;
+@property (nonatomic, strong) NSMutableArray *reserveArray;
 
 @end
 
@@ -23,6 +26,7 @@
         [self setConstraint:self.detailTableView];
         self.delegate = self;
         self.dataSource = self;
+        self.detailModel = [DetailModel sharedInstance];
     }
     return self;
 }
@@ -33,7 +37,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)sectionIndex {
-    return 10;
+    return [self.detailModel.reserveArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -42,6 +46,21 @@
         NSArray *objects = [[NSBundle mainBundle] loadNibNamed:@"DetailTableViewCell" owner:self options:nil];
         cell = [objects objectAtIndex:0];
     }
+    NSArray *array = self.detailModel.reserveArray;
+    NSDictionary *dictionary = array[indexPath.row];
+    NSString *minute = dictionary[kMinute];
+    NSString *name = dictionary[kName];
+    NSString *phone = dictionary[kPhone];
+    NSString *people = dictionary[kPeople];
+    NSString *chair = dictionary[kChair];
+    NSString *tableware = dictionary[kTableware];
+    NSString *remark = dictionary[kRemark];
+    
+    [cell.peopleNumber setText:people];
+    [cell.name setText:[NSString stringWithFormat:@"%@(%@兒椅%@兒餐)",name,chair,tableware]];
+    [cell.phone setText:phone];
+    [cell.remark setText:remark];
+    [cell.time setText:[NSString stringWithFormat:@"%@分前",minute]];
     
     return cell;
 }

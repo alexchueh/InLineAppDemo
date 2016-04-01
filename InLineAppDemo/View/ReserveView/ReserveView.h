@@ -8,11 +8,13 @@
 
 #import "BaseView.h"
 #import "DecreaseView.h"
+#import "DCRoundSwitch.h"
 
 @interface ReserveView : BaseView
 
 + (ReserveView *)sharedInstance;
-
+@property (weak, nonatomic) IBOutlet DCRoundSwitch *addReserve;
+@property (weak, nonatomic) IBOutlet UIButton *gender;
 #pragma mark - 調整數量的頁面
 /**
  *  調整分鐘數

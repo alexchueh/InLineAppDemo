@@ -12,4 +12,14 @@
 
 + (ReserveModel *)sharedInstance;
 
+@property (nonatomic, copy) NSString *minute;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *phone;
+@property (nonatomic, copy) NSString *people;
+@property (nonatomic, copy) NSString *chair;
+@property (nonatomic, copy) NSString *tableware;
+@property (nonatomic, copy) NSString *remark;
+
+- (void)addReserveToData;
+
 @end

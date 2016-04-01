@@ -78,6 +78,7 @@
 		BF3135EE1CAE4DD300D7E366 /* ReserveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReserveModel.m; sourceTree = "<group>"; };
 		BF3135F01CAE4DEA00D7E366 /* DetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailModel.h; sourceTree = "<group>"; };
 		BF3135F11CAE4DEA00D7E366 /* DetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailModel.m; sourceTree = "<group>"; };
+		BF3135F31CAE59C500D7E366 /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
 		BF93DD281CAB9F2A005456DF /* InLineAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InLineAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF93DD2C1CAB9F2A005456DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF93DD2E1CAB9F2A005456DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -199,6 +200,7 @@
 				BF93DD2E1CAB9F2A005456DF /* AppDelegate.h */,
 				BF93DD2F1CAB9F2A005456DF /* AppDelegate.m */,
 				BF93DD341CAB9F2A005456DF /* Main.storyboard */,
+				BF3135F31CAE59C500D7E366 /* Global.h */,
 				BF93DD371CAB9F2A005456DF /* Assets.xcassets */,
 				BF93DD391CAB9F2A005456DF /* LaunchScreen.storyboard */,
 				BF93DD3C1CAB9F2A005456DF /* Info.plist */,

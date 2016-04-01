@@ -12,4 +12,6 @@
 
 + (DetailModel *)sharedInstance;
 
+@property (nonatomic, strong) NSMutableArray *reserveArray;
+
 @end

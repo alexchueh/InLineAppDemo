@@ -7,13 +7,11 @@
 //
 
 #import "ReserveView.h"
-#import "DCRoundSwitch.h"
+#import "ReserveModel.h"
 
 @interface ReserveView ()
 @property (strong, nonatomic) IBOutlet UIView *reserveView;
 @property (weak, nonatomic) IBOutlet UILabel *customerLabel;
-@property (weak, nonatomic) IBOutlet UIButton *gender;
-@property (weak, nonatomic) IBOutlet DCRoundSwitch *addReserve;
 @property (nonatomic, assign) CGRect newFrame;
 
 
@@ -58,8 +56,9 @@
         [self addSubview:self.reserveView];
         [self setConstraint:self.reserveView];
         [self setViewStyle];
+        [self setDefaultData];
         [self setPropertyData];
-//        [self setGestureRecognizer];
+        [self.addReserve addTarget:self action:@selector(reserve:) forControlEvents:UIControlEventValueChanged];
     }
     return self;
 }
@@ -72,17 +71,6 @@
     [self setVideoOrientation];
     
 }
-
-//- (void)setGestureRecognizer {
-//    NSArray *array = @[self.minuteView,self.peopleView,self.chairView,self.tablewareView];
-//    for (int i = 0 ; i < [array count] ; i++) {
-//        UITapGestureRecognizer *singleFingerTap =
-//        [[UITapGestureRecognizer alloc] initWithTarget:self
-//                                                action:@selector(decreaseViewTouch:)];
-//        DecreaseView *view = (DecreaseView *)array[i];
-//        [view addGestureRecognizer:singleFingerTap];
-//    }
-//}
 
 - (void)setVideoOrientation {
     //TODO 要將所有TextField的keyboard縮回
@@ -114,27 +102,25 @@
     self.addReserve.on = NO;
 }
 
+- (void)setDefaultData {
+    self.minute = @"0";
+    self.people = @"0";
+    self.chair = @"0";
+    self.tableware = @"0";
+}
+
 - (void)setPropertyData {
     [RACObserve(self, minute) subscribeNext:^(NSString *minute) {
         self.minuteLabel.text = minute;
     }];
-    [RACObserve(self, name) subscribeNext:^(NSString *name) {
-        
-    }];
-    [RACObserve(self, phone) subscribeNext:^(NSString *phone) {
-        
-    }];
     [RACObserve(self, people) subscribeNext:^(NSString *people) {
-        
+        self.peopleLabel.text = [NSString stringWithFormat:@"%@-%i",people,[people intValue] + 1];
     }];
     [RACObserve(self, chair) subscribeNext:^(NSString *chair) {
-        
+        self.chairLabel.text = chair;
     }];
     [RACObserve(self, tableware) subscribeNext:^(NSString *tableware) {
-        
-    }];
-    [RACObserve(self, remark) subscribeNext:^(NSString *remark) {
-        
+        self.tablewareLabel.text = tableware;
     }];
 }
 
@@ -148,37 +134,19 @@
     }
 }
 
-//- (void)decreaseViewTouch:(UITapGestureRecognizer *)recognizer {
-//    CGPoint point = [recognizer locationInView:recognizer.view];
-//    if (point.y <= self.minuteView.frame.size.height / 2) {
-//        self.decreaseValue = 1;
-//    }else {
-//        self.decreaseValue = -1;
-//    }
-//    NSLog(@"decreaseValue:%i",self.decreaseValue);
-//    switch (recognizer.view.tag) {
-//        case 1000: {
-//            
-//        }
-//            break;
-//        case 1001: {
-//            
-//        }
-//            break;
-//        case 1002: {
-//            
-//        }
-//            break;
-//        case 1003: {
-//            
-//        }
-//            break;
-//            
-//        default:
-//            break;
-//    }
-//}
+- (void)reserve:(id)sender {
+    
+    if (self.addReserve.on) {
+        [self performBlock:^{
+            [self.addReserve setOn:NO animated:YES];
+            [[NSNotificationCenter defaultCenter] postNotificationName:kAddReserve object:nil];
+        } afterDelay:.6];
+    }
+}
 
-
+- (void)performBlock:(void(^)())block afterDelay:(NSTimeInterval)delay {
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delay * NSEC_PER_SEC));
+    dispatch_after(popTime, dispatch_get_main_queue(), block);
+}
 
 @end

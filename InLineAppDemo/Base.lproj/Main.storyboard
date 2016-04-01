@@ -267,6 +267,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="detailTableView" destination="c8g-Q5-mAe" id="4cy-jS-O9C"/>
                         <outlet property="reserveView" destination="FrF-zR-aRc" id="9D5-3r-UUY"/>
                     </connections>
                 </viewController>

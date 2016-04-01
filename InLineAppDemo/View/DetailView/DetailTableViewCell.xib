@@ -16,10 +16,10 @@
                 <rect key="frame" x="0.0" y="0.0" width="548" height="94"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3-4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cep-Df-5xQ">
-                        <rect key="frame" x="22" y="38" width="35" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3-4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cep-Df-5xQ">
+                        <rect key="frame" x="8" y="38" width="56" height="21"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="35" id="pBa-Ft-vfn"/>
+                            <constraint firstAttribute="width" constant="56" id="pBa-Ft-vfn"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="0.98823535442352295" green="0.26666668057441711" blue="0.11764706671237946" alpha="1" colorSpace="deviceRGB"/>
@@ -55,7 +55,7 @@
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailingMargin" secondItem="42h-CU-GG5" secondAttribute="trailing" id="5fg-K2-eoS"/>
-                    <constraint firstItem="Cep-Df-5xQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="14" id="70O-xM-yEY"/>
+                    <constraint firstItem="Cep-Df-5xQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="70O-xM-yEY"/>
                     <constraint firstItem="exr-O4-WfF" firstAttribute="baseline" secondItem="KeD-tG-N2c" secondAttribute="baseline" id="GwF-Hc-Cu6"/>
                     <constraint firstAttribute="bottomMargin" secondItem="42h-CU-GG5" secondAttribute="bottom" id="Llm-Mj-CRt"/>
                     <constraint firstItem="KeD-tG-N2c" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="64" id="V5M-Tb-4Pw"/>
