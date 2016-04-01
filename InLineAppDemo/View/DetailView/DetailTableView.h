@@ -6,8 +6,8 @@
 //  Copyright © 2016年 shadow. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseTableView.h"
 
-@interface DetailTableView : UITableView<UITableViewDataSource,UITableViewDelegate>
+@interface DetailTableView : BaseTableView<UITableViewDataSource,UITableViewDelegate>
 
 @end

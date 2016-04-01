@@ -12,6 +12,15 @@
 		BF3135D21CAD215300D7E366 /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3135D01CAD215300D7E366 /* DetailTableViewCell.m */; };
 		BF3135D31CAD215300D7E366 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3135D11CAD215300D7E366 /* DetailTableViewCell.xib */; };
 		BF3135D51CAD248300D7E366 /* DetailTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3135D41CAD248300D7E366 /* DetailTableView.xib */; };
+		BF3135DF1CAD2A9100D7E366 /* DCRoundSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3135D81CAD2A9100D7E366 /* DCRoundSwitch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF3135E01CAD2A9100D7E366 /* DCRoundSwitchKnobLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3135DA1CAD2A9100D7E366 /* DCRoundSwitchKnobLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF3135E11CAD2A9100D7E366 /* DCRoundSwitchOutlineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3135DC1CAD2A9100D7E366 /* DCRoundSwitchOutlineLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF3135E21CAD2A9100D7E366 /* DCRoundSwitchToggleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3135DE1CAD2A9100D7E366 /* DCRoundSwitchToggleLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF3135E51CAE112800D7E366 /* DecreaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3135E41CAE112800D7E366 /* DecreaseView.m */; };
+		BF3135E71CAE115300D7E366 /* DecreaseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3135E61CAE115300D7E366 /* DecreaseView.xib */; };
+		BF3135EA1CAE26D900D7E366 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3135E91CAE26D900D7E366 /* BaseTableView.m */; };
+		BF3135EF1CAE4DD300D7E366 /* ReserveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3135EE1CAE4DD300D7E366 /* ReserveModel.m */; };
+		BF3135F21CAE4DEA00D7E366 /* DetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3135F11CAE4DEA00D7E366 /* DetailModel.m */; };
 		BF93DD2D1CAB9F2A005456DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93DD2C1CAB9F2A005456DF /* main.m */; };
 		BF93DD301CAB9F2A005456DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93DD2F1CAB9F2A005456DF /* AppDelegate.m */; };
 		BF93DD361CAB9F2A005456DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF93DD341CAB9F2A005456DF /* Main.storyboard */; };
@@ -52,6 +61,23 @@
 		BF3135D01CAD215300D7E366 /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
 		BF3135D11CAD215300D7E366 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
 		BF3135D41CAD248300D7E366 /* DetailTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableView.xib; sourceTree = "<group>"; };
+		BF3135D71CAD2A9100D7E366 /* DCRoundSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitch.h; sourceTree = "<group>"; };
+		BF3135D81CAD2A9100D7E366 /* DCRoundSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitch.m; sourceTree = "<group>"; };
+		BF3135D91CAD2A9100D7E366 /* DCRoundSwitchKnobLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchKnobLayer.h; sourceTree = "<group>"; };
+		BF3135DA1CAD2A9100D7E366 /* DCRoundSwitchKnobLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchKnobLayer.m; sourceTree = "<group>"; };
+		BF3135DB1CAD2A9100D7E366 /* DCRoundSwitchOutlineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchOutlineLayer.h; sourceTree = "<group>"; };
+		BF3135DC1CAD2A9100D7E366 /* DCRoundSwitchOutlineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchOutlineLayer.m; sourceTree = "<group>"; };
+		BF3135DD1CAD2A9100D7E366 /* DCRoundSwitchToggleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchToggleLayer.h; sourceTree = "<group>"; };
+		BF3135DE1CAD2A9100D7E366 /* DCRoundSwitchToggleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchToggleLayer.m; sourceTree = "<group>"; };
+		BF3135E31CAE112800D7E366 /* DecreaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecreaseView.h; sourceTree = "<group>"; };
+		BF3135E41CAE112800D7E366 /* DecreaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecreaseView.m; sourceTree = "<group>"; };
+		BF3135E61CAE115300D7E366 /* DecreaseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DecreaseView.xib; sourceTree = "<group>"; };
+		BF3135E81CAE26D800D7E366 /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		BF3135E91CAE26D900D7E366 /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		BF3135ED1CAE4DD300D7E366 /* ReserveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReserveModel.h; sourceTree = "<group>"; };
+		BF3135EE1CAE4DD300D7E366 /* ReserveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReserveModel.m; sourceTree = "<group>"; };
+		BF3135F01CAE4DEA00D7E366 /* DetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailModel.h; sourceTree = "<group>"; };
+		BF3135F11CAE4DEA00D7E366 /* DetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailModel.m; sourceTree = "<group>"; };
 		BF93DD281CAB9F2A005456DF /* InLineAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InLineAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF93DD2C1CAB9F2A005456DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF93DD2E1CAB9F2A005456DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +133,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF3135D61CAD2A9100D7E366 /* DCRoundSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				BF3135D71CAD2A9100D7E366 /* DCRoundSwitch.h */,
+				BF3135D81CAD2A9100D7E366 /* DCRoundSwitch.m */,
+				BF3135D91CAD2A9100D7E366 /* DCRoundSwitchKnobLayer.h */,
+				BF3135DA1CAD2A9100D7E366 /* DCRoundSwitchKnobLayer.m */,
+				BF3135DB1CAD2A9100D7E366 /* DCRoundSwitchOutlineLayer.h */,
+				BF3135DC1CAD2A9100D7E366 /* DCRoundSwitchOutlineLayer.m */,
+				BF3135DD1CAD2A9100D7E366 /* DCRoundSwitchToggleLayer.h */,
+				BF3135DE1CAD2A9100D7E366 /* DCRoundSwitchToggleLayer.m */,
+			);
+			path = DCRoundSwitch;
+			sourceTree = "<group>";
+		};
+		BF3135EB1CAE4DBC00D7E366 /* DetailModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF3135F01CAE4DEA00D7E366 /* DetailModel.h */,
+				BF3135F11CAE4DEA00D7E366 /* DetailModel.m */,
+			);
+			path = DetailModel;
+			sourceTree = "<group>";
+		};
+		BF3135EC1CAE4DBC00D7E366 /* ReserveModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF3135ED1CAE4DD300D7E366 /* ReserveModel.h */,
+				BF3135EE1CAE4DD300D7E366 /* ReserveModel.m */,
+			);
+			path = ReserveModel;
+			sourceTree = "<group>";
+		};
 		BF93DD1F1CAB9F2A005456DF = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +246,8 @@
 			isa = PBXGroup;
 			children = (
 				BF93DD641CABA230005456DF /* BaseModel */,
+				BF3135EC1CAE4DBC00D7E366 /* ReserveModel */,
+				BF3135EB1CAE4DBC00D7E366 /* DetailModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,6 +265,7 @@
 		BF93DD611CABA1EB005456DF /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				BF3135D61CAD2A9100D7E366 /* DCRoundSwitch */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -220,6 +282,8 @@
 			children = (
 				BF93DD6D1CABA3A9005456DF /* BaseView.h */,
 				BF93DD6E1CABA3A9005456DF /* BaseView.m */,
+				BF3135E81CAE26D800D7E366 /* BaseTableView.h */,
+				BF3135E91CAE26D900D7E366 /* BaseTableView.m */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -257,6 +321,9 @@
 				BF93DD751CABA72E005456DF /* ReserveView.h */,
 				BF93DD761CABA72E005456DF /* ReserveView.m */,
 				BF93DD7A1CABB523005456DF /* ReserveView.xib */,
+				BF3135E31CAE112800D7E366 /* DecreaseView.h */,
+				BF3135E41CAE112800D7E366 /* DecreaseView.m */,
+				BF3135E61CAE115300D7E366 /* DecreaseView.xib */,
 			);
 			path = ReserveView;
 			sourceTree = "<group>";
@@ -402,6 +469,7 @@
 				BF93DD361CAB9F2A005456DF /* Main.storyboard in Resources */,
 				BF3135D51CAD248300D7E366 /* DetailTableView.xib in Resources */,
 				BF93DD7B1CABB523005456DF /* ReserveView.xib in Resources */,
+				BF3135E71CAE115300D7E366 /* DecreaseView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,14 +527,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3135E11CAD2A9100D7E366 /* DCRoundSwitchOutlineLayer.m in Sources */,
+				BF3135F21CAE4DEA00D7E366 /* DetailModel.m in Sources */,
 				BF93DD721CABA3B9005456DF /* BaseModel.m in Sources */,
+				BF3135E51CAE112800D7E366 /* DecreaseView.m in Sources */,
+				BF3135EA1CAE26D900D7E366 /* BaseTableView.m in Sources */,
 				BF93DD691CABA2E2005456DF /* BaseViewController.m in Sources */,
 				BF3135CE1CAD20F800D7E366 /* DetailTableView.m in Sources */,
+				BF3135EF1CAE4DD300D7E366 /* ReserveModel.m in Sources */,
+				BF3135E01CAD2A9100D7E366 /* DCRoundSwitchKnobLayer.m in Sources */,
+				BF3135DF1CAD2A9100D7E366 /* DCRoundSwitch.m in Sources */,
 				BF3135D21CAD215300D7E366 /* DetailTableViewCell.m in Sources */,
 				BF93DD301CAB9F2A005456DF /* AppDelegate.m in Sources */,
 				BF93DD6F1CABA3A9005456DF /* BaseView.m in Sources */,
 				BF93DD771CABA72E005456DF /* ReserveView.m in Sources */,
 				BF93DD6C1CABA2F5005456DF /* MainViewController.m in Sources */,
+				BF3135E21CAD2A9100D7E366 /* DCRoundSwitchToggleLayer.m in Sources */,
 				BF93DD2D1CAB9F2A005456DF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

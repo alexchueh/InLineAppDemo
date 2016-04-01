@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
@@ -42,23 +43,27 @@
                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="B6/不要沙發" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exr-O4-WfF">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B6/不要沙發" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exr-O4-WfF">
                         <rect key="frame" x="221" y="16" width="263" height="49"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="263" id="DFn-v8-g9a"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="exr-O4-WfF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="213" id="09e-8W-hS1"/>
                     <constraint firstAttribute="trailingMargin" secondItem="42h-CU-GG5" secondAttribute="trailing" id="5fg-K2-eoS"/>
                     <constraint firstItem="Cep-Df-5xQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="14" id="70O-xM-yEY"/>
+                    <constraint firstItem="exr-O4-WfF" firstAttribute="baseline" secondItem="KeD-tG-N2c" secondAttribute="baseline" id="GwF-Hc-Cu6"/>
                     <constraint firstAttribute="bottomMargin" secondItem="42h-CU-GG5" secondAttribute="bottom" id="Llm-Mj-CRt"/>
                     <constraint firstItem="KeD-tG-N2c" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="64" id="V5M-Tb-4Pw"/>
                     <constraint firstItem="2e9-Gg-m1z" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="YMj-dH-goW"/>
+                    <constraint firstItem="exr-O4-WfF" firstAttribute="firstBaseline" secondItem="2e9-Gg-m1z" secondAttribute="firstBaseline" id="YsV-aQ-gJJ"/>
                     <constraint firstItem="2e9-Gg-m1z" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="64" id="ZL4-xa-DJC"/>
                     <constraint firstItem="Cep-Df-5xQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="30" id="s7p-Ni-a8d"/>
-                    <constraint firstItem="exr-O4-WfF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="sGg-iw-H5B"/>
+                    <constraint firstItem="exr-O4-WfF" firstAttribute="leading" secondItem="KeD-tG-N2c" secondAttribute="trailing" constant="55" id="sah-v3-lLA"/>
                     <constraint firstItem="KeD-tG-N2c" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="37" id="yBG-nW-ZEi"/>
                 </constraints>
             </tableViewCellContentView>

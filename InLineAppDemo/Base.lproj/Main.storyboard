@@ -266,6 +266,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="reserveView" destination="FrF-zR-aRc" id="9D5-3r-UUY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p5T-hZ-wD4" sceneMemberID="firstResponder"/>
             </objects>
